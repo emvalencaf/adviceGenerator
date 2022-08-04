@@ -1,0 +1,1 @@
+export const PATH = "https://api.adviceslip.com/advice"
