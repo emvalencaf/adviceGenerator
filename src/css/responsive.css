@@ -1,0 +1,103 @@
+@media(max-width:480px){
+
+    header{
+        padding: 10px;
+    }
+    
+    header .title{
+        text-align: center;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        height: 100vh;
+    }
+    
+    .container{
+        position: relative;
+    
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-advice{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        justify-content: center;
+    
+        border: 2px solid black;
+        border-radius: 16px;
+        box-shadow: 0px 0px 15px 0px rgb(178, 228, 255);
+    
+        max-width: 250px;
+        max-height: 250px;
+    
+        padding: 5px;
+    }
+    
+    .container-advice .title{
+        font-size: .7em;
+    
+        margin: 5px;
+    }
+    
+    .container-advice .text{
+    
+        color: #232323;
+        
+        background-color: #fbf3e9;
+    
+        border-radius: 50px 5px 50px 5px;
+        box-shadow: inset 0px 0px 25px 0px rgba(0, 0, 0, 0.725);
+        outline: none;
+    
+        font-size: 0.8em;
+        text-align: justify;
+    
+        width: 200px;
+        height: 60px;
+    
+        margin:25px;
+        padding: 20px;
+    
+    }
+    
+    .button{
+    
+        border: 2px solid rgba(0, 0, 0, 0.405);
+        border-radius: 100px;
+    
+        width: 50px;
+        height: 50px;
+    
+        cursor: pointer;
+    
+        transform: translateY(-25px);
+    }
+    
+    .button:hover{
+    
+        box-shadow: 0px 0px 45px 0px rgba(167, 213, 167, 0.475);
+    }
+    
+    .button:active{
+        background-color: rgba(167, 213, 167);
+    }
+    
+    
+    footer h2{
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+}
